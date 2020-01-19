@@ -1,135 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div id="logo">
-            <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" width="170px" height="50px"/>
-        </div>
+      <div id="logo">
+        <img
+          src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png"
+          width="170px"
+          height="50px"
+        />
+      </div>
 
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop" />
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
+      <label for="drop" class="toggle"
+        ><img
+          src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png"
+          width="170px"
+          height="50px"/>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh5SjPnitJdTwlNccH6qF6zQ6vUAEuneKonDrPPcQ3a8lQc4p&s"
+          width="40px"
+          style="margin-left: 90px;"
+      /></label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+          <label for="drop-1" class="toggle">About <i class="down"></i> </label>
+          <a href="#">About <i class="down"></i></a>
+          <input type="checkbox" id="drop-1" />
+          <ul>
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Chairman Message</a></li>
+            <li><a href="#">Saylani Annual Report</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="drop-2" class="toggle"
+            >Saylani Services <i class="down"></i>
+          </label>
+          <a href="#">Saylani Services <i class="down"></i></a>
+          <input type="checkbox" id="drop-2" />
+          <ul>
+            <li>
+              <label for="drop-3" class="toggle"
+                >Education <i class="down"></i>
+              </label>
+              <a href="#">Education <i class="right"></i></a>
+              <input type="checkbox" id="drop-3" />
+
+              <ul>
                 <li>
-                    <!-- First Tier Drop Down -->
-                    <label for="drop-1" class="toggle">About +</label>
-                    <a href="#">About</a>
-                    <input type="checkbox" id="drop-1"/>
-                    <ul>
-                        <li><a href="#">Introduction</a></li>
-                        <li><a href="#">Chairman Message</a></li>
-                        <li><a href="#">Saylani Annual Report</a></li>
-                    </ul> 
+                  <label for="drop-3" class="toggle"
+                    >Mass Training <i class="down"></i>
+                  </label>
+                  <a href="#">Mass Training <i class="right"></i></a>
 
+                  <ul>
+                    <li><a href="#">SMIT Program</a></li>
+                    <li><a href="#">Faculty</a></li>
+                    <li><a href="#">Result</a></li>
+                    <li><a href="#">Entry Test Schedule</a></li>
+                  </ul>
                 </li>
-                <li>
+                <li><a href="#">Saylani Incubator</a></li>
+                <li><a href="#">Green House</a></li>
+              </ul>
+            </li>
+            <li>
+              <label for="drop-3" class="toggle"
+                >Medical <i class="down"></i>
+              </label>
+              <a href="#">Medical <i class="right"></i></a>
+              <input type="checkbox" id="drop-3" />
 
-                <!-- First Tier Drop Down -->
-                <label for="drop-2" class="toggle">Saylani +</label>
-                <a href="#">Saylani Services</a>
-                <input type="checkbox" id="drop-2"/>
-                <ul>
-                    <!-- <li><a href="#">Education</a></li> -->
-                    <li>
-                       
-                        <!-- Second Tier Drop Down -->        
-                        <label for="drop-3" class="toggle">Tutorials +</label>
-                        <a href="#">Education</a>         
-                        <input type="checkbox" id="drop-3"/>
-    
-                        <ul>
-                            <li>
-                       
-                                <!-- Second Tier Drop Down -->        
-                                <label for="drop-3" class="toggle">Tutorials +</label>
-                                <a href="#">Mass Training</a>         
-                                <!-- <input type="checkbox" id="drop-3"/> -->
-            
-                                <ul>
-                                    <li><a href="#">Mass Training</a></li>
-                                    <li><a href="#">jQuery</a></li>
-                                    <li><a href="#">Other</a></li>
-                                    <li><a href="#">Other</a></li>
-                                </ul>
-                                </li>
-                            <li><a href="#">jQuery</a></li>
-                            <li><a href="#">Other</a></li>
-                        </ul>
-                        </li>
-                        <li>
-                       
-                            <!-- Second Tier Drop Down -->        
-                            <label for="drop-3" class="toggle">Tutorials +</label>
-                            <a href="#">Page 3</a>         
-                            <input type="checkbox" id="drop-3"/>
-        
-                            <ul>
-                                <li><a href="#">Mass Training</a></li>
-                                <li><a href="#">jQuery</a></li>
-                                <li><a href="#">Other</a></li>
-                                <li><a href="#">Other</a></li>
-                            </ul>
-                            </li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li>
-                       
-                    <!-- Second Tier Drop Down -->        
-                    <label for="drop-3" class="toggle">Tutorials +</label>
-                    <a href="#">Tutorials</a>         
-                    <input type="checkbox" id="drop-3"/>
+              <ul>
+                <li><a href="#">Saylani Blood Bank</a></li>
+                <li><a href="#">Saylani Clinic / Hospital</a></li>
+                <li><a href="#">Medical Internship Form</a></li>
+              </ul>
+            </li>
+            <li>
+              <label for="drop-3" class="toggle"
+                >Welfare <i class="down"></i>
+              </label>
+              <a href="#">Welfare <i class="right"></i></a>
+              <input type="checkbox" id="drop-3" />
 
-                    <ul>
-                        <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="#">jQuery</a></li>
-                        <li><a href="#">Other</a></li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li>
-                       
-                    <!-- Second Tier Drop Down -->        
-                    <label for="drop-3" class="toggle">Tutorials +</label>
-                    <a href="#">Future Project</a>         
-                    <input type="checkbox" id="drop-3"/>
+              <ul>
+                <li><a href="#">Family Adoption</a></li>
+                <li><a href="#">Wedding Help</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Hajj Application Form</a></li>
+            <li><a href="#">Saylani Dashtarkhwan</a></li>
+            <li><a href="#">Saylani R.O Plant</a></li>
+            <li><a href="#">Online Sadqah</a></li>
+            <li><a href="#">Online Taweezat/Ishtekhara</a></li>
+            <li><a href="#">Saylani Job Bank</a></li>
+            <li>
+              <label for="drop-3" class="toggle"
+                >Quran Academy <i class="down"></i>
+              </label>
+              <a href="#">Quran Academy <i class="right"></i></a>
+              <input type="checkbox" id="drop-3" />
 
-                    <ul>
-                        <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="#">jQuery</a></li>
-                        <li><a href="#">Other</a></li>
-                    </ul>
-                    </li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">News</a></li>
-                       <li>
-                    <!-- Second Tier Drop Down -->        
-                    <label for="drop-3" class="toggle">Tutorials +</label>
-                    <a href="#">Donation</a>         
-                    <input type="checkbox" id="drop-3"/>
+              <ul>
+                <li><a href="#">Online Quran Admission</a></li>
+                <li><a href="#">Quran App ( Tafteesh )</a></li>
+                <li><a href="#">Online Quran Registration</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Saylani Online Masajid</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="drop-3" class="toggle"
+            >Future Project <i class="down"></i
+          ></label>
+          <a href="#">Future Project <i class="down"></i></a>
+          <input type="checkbox" id="drop-3" />
 
-                    <ul>
-                        <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="#">jQuery</a></li>
-                        <li><a href="#">Other</a></li>
-                    </ul>
-                    </li>
-                <li><a href="#">Contact US</a></li>
-            </ul>
-        </nav>
-</body>
+          <ul>
+            <li><a href="#">Saylani City</a></li>
+            <li><a href="#">Saylani University</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Media</a></li>
+        <li><a href="#">News</a></li>
+        <li>
+          <label for="drop-3" class="toggle"
+            >Donation <i class="down"></i
+          ></label>
+          <a href="#">Donation <i class="down"></i></a>
+          <input type="checkbox" id="drop-3" />
+
+          <ul>
+            <li><a href="#">Bank Details</a></li>
+            <li><a href="#">Sadqah</a></li>
+            <li><a href="#">Aqiqa</a></li>
+            <li><a href="#">Other Donation</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact US</a></li>
+      </ul>
+    </nav>
+  </body>
 </html>
